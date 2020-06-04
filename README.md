@@ -22,7 +22,8 @@ Trash tracker is a web based app built as an internship assignment during my ten
 ​
 ## Technologies
 * [Node](https://nodejs.org) 
-* [Express](https://expressjs.com/) 
+* [Travis] (https://travis-ci.org/)
+* [Gulp] (https://gulpjs.com/)
 * [Bootstrap](https://www.mongodb.com/)  
 * [Sass](https://sass-lang.com/)
 * [Javascript](https://www.javascript.com/)
