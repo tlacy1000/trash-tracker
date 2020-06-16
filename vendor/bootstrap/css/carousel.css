@@ -1,7 +1,25 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-
+ul {
+  list-style-type: none;
+  margin: 50px;
+  padding: 50px;
+  color: #0057B8;
+  font-family: aktiv-grotesk,sans-serif;
+  font-weight: 900;
+}
+nav{
+  font-weight: 1000;
+  list-style-type: none;
+  margin: 50px;
+  padding: 50px;
+  color: #0057B8;
+  font-family: aktiv-grotesk,sans-serif;
+}
+body {
+  font-family: aktiv-grotesk,sans-serif;
+}
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
