@@ -45,7 +45,7 @@ To-do list:
 
 ​
 ## Status
-Project is: in progress
+Project is: Complete
 ​
 ## Inspiration
 Project inspired by conservationists everywhere, and their tireless efforts to protect the world's oceans.
