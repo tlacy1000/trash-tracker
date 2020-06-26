@@ -15,9 +15,18 @@
 ​
 ## Screenshots
 ![Home screenshot](./assets/img/screens/home.png)
-![Home screenshot](./img/screens/intro.png)
-![Home screenshot](./img/screens/speakers.png)
-![Home screenshot](./img/screens/schedule.png)
+![About screenshot](./assets/img/screens/about1.png)
+![Step by step screenshot](./assets/img/screens/stepbystep.png)
+![What do we do screenshot](./assets/img/screens/whatdowedo.png)
+![Cleanup tech screenshot](./assets/img/screens/tools.png)
+![Cleanup sites screenshot](./assets/img/screens/cleanup1.png)
+![Cleanup sites screenshot](./assets/img/screens/cleanup2.png)
+![Teams screenshot](./assets/img/screens/teams.png)
+![Progress screenshot](./assets/img/screens/progress.png)
+![Learn more screenshot](./assets/img/screens/learnmore.png)
+![Concern spotlight screenshot](./assets/img/screens/concern1.png)
+![Concern spotlight screenshot](./assets/img/screens/concern2.png)
+![Get involved screenshot](./assets/img/screens/getinvolved.png)
 ​
 ## Technologies
 * [Node](https://nodejs.org) 
