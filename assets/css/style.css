@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #469fdf;
+  color: #00070c;
   text-decoration: none;
 }
 
@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #124265;
+  color: #000000;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
@@ -503,7 +503,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 80px 0;
+  padding: 120px ;
 }
 
 .section-bg {
@@ -754,7 +754,7 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  padding: 70px 20px 80px 20px;
+  padding: 70px 20px 50px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
@@ -920,9 +920,118 @@ section {
   color: #2487ce;
 }
 
+
+/*--------------------------------------------------------------
+# Cleanup Sites
+--------------------------------------------------------------*/
+#cleanupsites {
+  width: 100%;
+  height: 110vh;
+  position: relative;
+  background: url("../img/saltwatersplash.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+#cleanupsites:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#cleanupsites .container {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+#cleanupsites h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 72px;
+  color: #124265;
+  font-family: "Poppins", sans-serif;
+}
+
+#cleanupsites h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #124265;
+}
+
+#cleanupsites .icon-boxes {
+  margin-top: 100px;
+}
+
+#cleanupsites .icon-box {
+  padding: 50px 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+#cleanupsites .icon-box .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#cleanupsites .icon-box .title a {
+  color: #124265;
+  transition: 0.3s;
+}
+
+#cleanupsites .icon-box .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+#cleanupsites .icon-box .icon {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  font-size: 36px;
+  line-height: 1;
+  color: #2487ce;
+}
+
+#cleanupsites .icon-box:hover {
+  transform: scale(1.08);
+}
+
+#cleanupsites .icon-box:hover .title a {
+  color: #2487ce;
+}
+
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+#team .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#team h2 { 
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #124265;
+  
+}
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -963,6 +1072,110 @@ section {
   color: #777777;
 }
 
+
+
+/*--------------------------------------------------------------
+# Progress
+--------------------------------------------------------------*/
+#progress {
+  width: 100%;
+  height: 110vh;
+  position: relative;
+}
+
+#progress:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#progress .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#progress h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 72px;
+  color: #124265;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+#progress h2 { 
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #124265;
+  
+}
+
+
+/*--------------------------------------------------------------
+# Get Involved
+--------------------------------------------------------------*/
+ol {
+  font-size: large;
+  counter-increment: auto-increment-numbers;
+  padding: 20px;
+}
+
+
+#getinvolved ol li {
+  
+  padding: 5px;
+  margin-left: 35px;
+}
+#getinvolved.collapsible {
+  background-color: #2487CE;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.button .collapsible{
+background-color: #2487CE;
+align-content: center;
+}
+
+
+.getinvolvedcontent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+/*--------------------------------------------------------------
+# Concern Spotlight
+--------------------------------------------------------------*/
+
+#concernspotlight h2,h3 {
+  text-align: center;
+}
+#concernspotlight p {
+  padding: 8px 0 0 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 10px;
+}
+#concernspotlight img{
+  padding:10px;
+}
 
 
 /*--------------------------------------------------------------
