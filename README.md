@@ -38,7 +38,7 @@
 ​
 ## Demo
 
-#Demo Clone this repository the open the index file on your local machine
+#Demo Clone this repository then open the index file on your local machine OR download the ZIP file, extract all then open index file in default browser
 ​
 
 ## Features
