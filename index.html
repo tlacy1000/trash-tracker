@@ -2,122 +2,743 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title> 4Ocean trash tracker</title>
+  <title>4ocean Trash Tracker</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
 
-  <!-- Custom fonts -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Custom styles -->
-  <link href="css/landing-page.min.css" rel="stylesheet">
-  
-  
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+ 
 </head>
 
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#">4Ocean </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href= "index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            How We Do It
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href= "steps.html">Step by step process </a>
-            <a class="dropdown-item" href= "cleanuptech.html">Cleanup Technology</a>
-            <a class="dropdown-item" href= "cleanupsites.html" >Cleanup Sites</a>
-            <a class="dropdown-item" href= "meetourteams.html" >Meet our Teams!</a>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid">
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li class="drop-down"><a href="#steps">How we do it</a>
+            <ul>
+                  <li><a href="#steps">Step by step process</a></li>
+                  <li><a href="#cleanuptech">Cleanup tech</a></li>
+                  <li><a href="#cleanupsites">Cleanup sites</a></li>
+                  <li><a href="#team">Meet our teams!</a></li>
+            </ul>
+          </li>
+          <li><a href="#progress">Progress</a></li>
+           <li><a href="#concernspotlight">Concern spotlight</a></li>
+          <li><a href="#getinvolved">Get involved</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+     </a>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+      <div class="row justify-content-center">
+        <div class="col-xl-7 col-lg-9 text-center">
+          <h1>4ocean Trash Tracker</h1>
+          <h2>See our progress and learn how you can help!</h2>
+        </div>
+      </div>
+     
+
+      <div class="row icon-boxes">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><i class="ri-todo-fill"></i></div>
+            <h4 class="title"><a href="">See how we do it</a></h4>
+            <p class="description">View our step by step process and learn how we turn bracelet sales into tangible impact</p>
           </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="progress.html">Progress</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href= "concernspotlight.html" >Concern Spotlight</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href= "getinvolved.html" >Get Involved</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- Masthead -->
-  <header class="masthead text-white text-center">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Welcome to the 4Ocean trash tracker!  </h1>
-          <h2> See how much progress we've made so far by browsing our progress page and seeing what you can do to help</h2>
         </div>
-        </div>
-    </div>
-  </header>
 
-
-  <!-- Image Showcases -->
-  <section class="showcase">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Purpose</h2>
-          <p class="lead mb-0">We’re here to clean the ocean and coastlines while working to stop the inflow of plastic by changing consumption habits</p>
-        </div>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
-        <div class="col-lg-6 my-auto showcase-text">
-          <h2>One Pound Promise</h2>
-          <p class="lead mb-0">We pull one pound of trash from the ocean and coastlines for every product purchased</p>
-        </div>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2> We are a global cleanup operation</h2>
-          <p class="lead mb-0"> We believe in uniting with ocean enthusiasts the world over to team up and make an impact on ocean pollution</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Footer -->
-  <footer class="footer bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon-box">
+            <div class="icon"><i class="ri-task-fill"></i></div>
+            <h4 class="title"><a href="">Check out our progress</a></h4>
+            <p class="description">See how much trash we've pulled from the ocean so far!</p>
           </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
+          <div class="icon-box">
+            <div class="icon"><i class="ri-book-open-fill"></i></div>
+            <h4 class="title"><a href="">Learn what's hurting our oceans</a></h4>
+            <p class="description">In our concern spotlight, we compile info on the latest threats to the world's oceans and marine life</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
+          <div class="icon-box">
+            <div class="icon"><i class="ri-hand-heart-fill"></i></div>
+            <h4 class="title"><a href="">Find out how you can help</a></h4>
+            <p class="description">At 4ocean, we believe we're all in this together! Learn how you can do your part to stop plastic pollution</p>
+          </div>
+        </div>
+
       </div>
     </div>
-  </footer>
+  </section><!-- End Hero -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+          <p>From an idea born on the beach to an international cleanup operation </p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              We are a global force for good
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Global Recycled Standard- our bracelets cords and beads are made from 100% post-consumer recycled plastic and glass bottles</li>
+              <li><i class="ri-check-double-line"></i> We pay our artisans living wages</li>
+              <li><i class="ri-check-double-line"></i> 1% for the Planet- we donate at least 1% of our revenue to nonprofit environmental conservation organizations</li>
+              <li><i class="ri-check-double-line"></i> We have pulled millions of pounds of trash already in only a few short years</li>
+              <li><i class="ri-check-double-line"></i> GreenCircle Certified- our bracelets are made from at least 90% post-consumer recycled material</li>
+
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Our founders, Alex and Andrew, have been around the ocean their entire lives. They both grew up on the Florida coast, swimming, diving, fishing, and surfing. 
+              After becoming friends in college, they saved up their money for the surf trip of a lifetime to Bali.
+               When they arrived, they found a beach that was completely covered in plastic, with trash-filled waves delivering more garbage with each break.
+               Their eyes were immediately opened to the magnitude of the ocean plastic crisis, and they vowed on the spot to try to do something about it.
+            </p>
+            <p>
+               So they created the 4ocean bracelet and pledged to pull a pound of trash from the ocean for each one purchased, using the profits to scale cleanup operations, make donations to ocean-related nonprofits, and build an organizational infrastructure to support future growth.
+            </p>
+            <p>
+               Even though 4ocean has collected millions of pounds of trash from the ocean and built an international infrastructure to fight the ocean plastic crisis, we’re just getting started. The ocean plastic crisis is massive and growing. We’re here to clean the ocean and coastlines while working to stop the inflow of plastic by changing consumption habits.
+               Our work won't be done until we can walk along our beaches — in Bali, in Haiti, in Florida, and around the world — and see nothing but warm sand and rolling waves.
+            </p>
+            <a href="https://4ocean.com/about/" class="btn-learn-more">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+  
+    <!-- ======= Step by step Section ======= -->
+    <section id="steps" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Step by step</h2>
+        <p>Every pound pulled is documented and tracked</p>        
+      </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+               <img src="assets/img/step1.jpg" alt="Girl in a jacket" width="200" height="200">
+              <h4><a href="">Step 1</a></h4>
+              <p>A picture is taken of the entire cleanup crew before they leave the main facility</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-orange ">
+              <img src="assets/img/step2.jpg" alt="Girl in a jacket" width="200" height="200">
+              <h4><a href="">Step 2</a></h4>
+              <p>The impact zone is carefully photographed before our captains and crews start recovering any trash</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-pink">
+              <img src="assets/img/step3.jpg" alt="Girl in a jacket" width="200" height="200">
+              <h4><a href="">Step 3</a></h4>
+              <p> Photos are taken throughout the cleanup to document the crews’ progress</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-yellow">
+              <img src="assets/img/step4.jpg" alt="Girl in a jacket" width="200" height="200">
+              <h4><a href="">Step 4</a></h4>
+              <p> The impact zone is photographed again once our crews are finished cleaning </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-red">
+              <img src="assets/img/step5.jpg" alt="Girl in a jacket" width="200" height="200">
+              <h4><a href="">Step 5</a></h4>
+              <p> All of the trash collected is photographed alongside the crew that collected it</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-teal">
+              <img src="assets/img/step6.jpg" alt="Girl in a jacket" width="200" height="200">
+              <h4><a href="">Step 6</a></h4>
+              <p> The entire weighing process is photographed. The scale and a member of the cleanup crew must be visible in every photo. Once weighed, the trash is loaded onto the 4ocean vehicle and photographed again before it’s transported back to our main facility</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-teal">
+              <img src="assets/img/step7.jpg" alt="Girl in a jacket" width="200" height="200">
+              <h4><a href="">Step 7</a></h4>
+              <p> A designated crew member completes a TrashTracker™ Documentation Sheet, which includes the date, time spent cleaning, number of captains and crew involved, weight of each collection sack, amount of trash loaded onto each vessel, and total weight of the trash collected. Then a recorder and administrator double the recorded information for accuracy and dually authorize the TrashTracker™ Documentation Sheet with their signatures</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-teal">
+              <img src="assets/img/step8.jpg" alt="Girl in a jacket" width="200" height="200">
+              <h4><a href="">Step 8</a></h4>
+              <p> All of the data from the TrashTracker™ Documentation Sheet is uploaded into our digital TrashTracker™ by the end of each business day. The TrashTracker™ is audited and verified quarterly by the Better Business Bureau</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-red">
+              <img src="assets/img/step9.jpg" alt="Girl in a jacket" width="200" height="200">
+
+              <h4><a href="">Step 9</a></h4>
+              <p> Repurposing recycled materials into raw material inventory for new life 
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End step by step Section -->
+
+    <!-- ======= About Video Section ======= -->
+    <section id="about-video" class="about-video">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-6 video-box align-self-baseline" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/about-video.jpg" class="img-fluid" alt="">
+            <a href="https://youtu.be/hgbld_JO3h0" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          </div>
+
+          <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+            <h3>What do we do with all the trash we pull?</h3>
+            <p class="font-italic">
+              Once the plastic is collected by our captains and crews, it’s weighed, photographed, and logged into our TrashTracker™ before it’s transported to our regional operational bases
+            </p>
+            <ul>
+              <li><i class="bx bx-check-double"></i> At each base, the plastic is sorted by type, color, and condition before it’s sent to our recycling partners for flaking, washing, and pelletizing</li>
+              <li><i class="bx bx-check-double"></i> These pellets are what we use to manufacture new and existing 4ocean products.</li>
+              <li><i class="bx bx-check-double"></i> We partner with various local facilities to find the most sustainable method of disposal for materials that are too contaminated or deteriorated.</li>
+              <li><i class="bx bx-check-double"></i> After all other methods of recycling are exhausted and we are unable to use materials, we dispose of them through thermal treatment or by responsibly landfilling the materials.</li>
+            </ul>
+            <p>
+              In addition to cleaning the ocean, we’re addressing the causes and impacts of ocean plastic pollution and leading educational campaigns to reduce plastic usage and waste.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Video Section -->
+
+  
+
+    <!-- ======= Cleanup Tech Section ======= -->
+    <section id="cleanuptech" class="cleanuptech section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>The right tools to get the job done</h2>
+          <p>We have team members around the world helping us fight the good fight.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/skimmer.jpg" class="img-fluid" alt="" width="500" height="600">
+              </div>
+              <div class="member-info">
+                <h4>Skimmers</h4>
+                <span>Developing clean ocean technologies improves our cleaning efficiency.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/boomsystem.jpg" class="img-fluid" alt="" width="500" height="600">
+              </div>
+              <div class="member-info">
+                <h4>Boom systems</h4>
+                <span>We often leverage boom systems to stop plastic before it can get into the ocean.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/people.jpg" class="img-fluid" alt="" width="500" height="600">
+              </div>
+              <div class="member-info">
+                <h4>People</h4>
+                <span>The best way to recover plastic is by using our own two hands, fishing nets, or other tools.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/vessel.jpg" class="img-fluid" alt="" width="500" height="600">
+              </div>
+              <div class="member-info">
+                <h4>Vessels</h4>
+                <span>Having the right vessel is extremely important because each ecosystem is unique.</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End Cleanup Tech Section -->
+
+    
+  <!-- ======= Begin Cleanup Sites Section ======= -->
+  <section id="cleanupsites" class="d-flex align-items-center">
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+      <div class="row justify-content-center">
+        <div class="col-xl-7 col-lg-9 text-center">
+          <h1>Cleanup Sites</h1>
+          <h2>Click on a highlighted area to learn more</h2>
+          
+          <div id="image_map">     
+            <img src="assets/img/map.jpg"   alt="image map example" width=700 height=400 usemap="#map_example"> 
+            <map name="map_example">        
+              <area href="https://www.4ocean.com/south-florida" alt="USA"        
+              target="_blank" shape=poly         
+              coords="151, 119, 174,122, 169,134, 154,136">   
+
+              <area href="https://4ocean.com/port-au-prince-haiti/" alt="Haiti"        
+              target="_blank" shape=poly         
+              coords="167, 141, 184,139, 183,157, 167,158">   
+
+              <area href="https://4ocean.com/guatemala/" alt="Guatemala"        
+              target="_blank" shape=poly         
+              coords="134, 150, 150,148, 150,165, 134,164">   
+
+              <area href="https://4ocean.com/bali-indonesia/"        
+              target="_blank" alt="Indonesia" shape=poly        
+              coords="546,207, 562,208, 563,225, 546,222">     
+            </map>       
+          </div> 
+      </div>
+     
+
+      <div class="row icon-boxes">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <h4 class="title"><a href="">Boca Raton, Florida, USA </a></h4>
+            <p class="description">
+              OPERATION OVERVIEW
+              <br>
+              Director of Operations:
+              Robin Hunting
+              <br>
+              Facility Location:
+              Boca Raton
+              <br>
+              Crew Members:
+              2
+              <br>
+              Vessels:
+              2</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon-box">
+            <h4 class="title"><a href=""> Bali, Indonesia</a></h4>
+            <p class="description">OPERATION OVERVIEW
+              Director of Operations:
+              Andi Rachmansyah
+              <br>
+              Facility Locations:
+              Denpasar, 
+              Jembrana, 
+              Medewi
+              <br>
+              Crew Members:
+              80
+              <br>
+              Vessels:
+              10 </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
+          <div class="icon-box">
+            <h4 class="title"><a href="">Port-Au-Prince, Haiti </a></h4>
+            <p class="description">OPERATION OVERVIEW
+              Director of Operations:
+              Sebastien Lambert
+              <br>
+              Facility Location:
+              Corridor Gangny
+              <br>
+              Crew Members:
+              78
+              <br>
+              Vessels:
+              4</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="500">
+          <div class="icon-box">
+            <h4 class="title"><a href="">Puerto Barrios, Guatemala</a></h4>
+            <p class="description">OPERATION OVERVIEW
+              Director of Operations:
+              Kevin Kuhlow
+              <br>
+              Facility Location:
+              Puerto Barrios
+              <br>
+              Crew Members:
+              Now hiring
+              <br>
+              Vessels:
+              2</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section><!-- End Cleanup Sites section -->
+
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg" style= "padding-bottom: 20px" >
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Meet our teams!</h2>
+          <p>We have team members around the world helping us fight the good fight.</p>
+        </div>
+
+        <div class="row">
+         <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/floridateam.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Boca Raton, Florida, United States</h4>
+                <span>Cleanup site</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/baliteam.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Bali, Indonesia</h4>
+                <span>Cleanup site</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/haititeam.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Port-Au-Prince,
+                  Haiti</h4>
+                <span>Cleeanup site</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/guatemala.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Puerto Barrios,
+                  Guatemala</h4>
+                <span>Cleanup site</span>
+              </div>
+            </div>
+          </div>
+
+         
+        </div>
+
+      </div>
+    </section>
+    <!-- End Team Section -->
+
+    <!--Progress section-->
+    <section id="progress" class="d-flex align-items-center">
+        <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+          <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-9 text-center">
+              <h1>Progress </h1>
+            <img src="assets/img/chart.jpg" class="img-fluid" alt="">
+            <p>Originally founded in 2017, we've been on a global cleanup mission, adding new cleanup sites around the world to better address the plastic crisis.</p>
+            <p> As time has gone on, we've seen great improvements in our efficicency and trash pull amounts. Please note that 2020 has experienced some setbacks due to the ongoing COVID-19 pandemic.</p>
+            <p> We look forward to further cleaning the oceans and returning to our aniticpated cleanup levels in the future.</p>
+            </div>
+          </div>
+         
+    
+        </div>
+      </section>
+
+      <!--End Progress section-->
+
+          <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts section-bg">
+      <div class="container">
+
+        <div class="row justify-content-end">
+
+          <div class="col-xl-12 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <span data-toggle="counter-up">9,084,050 </span>
+              <p>lbs pulled since 2017</p>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+      
+ <!-- ======= Cta Section ======= -->
+ <section id="cta" class="cta">
+  <div class="container" data-aos="zoom-in">
+    <div class="text-center">
+      <h3>Learn more about our progress</h3>
+      <p>View our most recent numbers of how many pounds we've pulled both globally and this week, and get a behind the scenes look!</p>
+      <a class="cta-btn" href="https://4ocean.com/our-impact/">Take me there</a>
+    </div>
+  </div>
+</section>
+<!-- End Cta Section -->
+
+    <!-- ======= Concern Spotlight Section ======= -->
+    <section id="concernspotlight" class="about">
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+      <div class="row justify-content-center">
+
+        <div class="section-title">
+          <h2>Concern Spotlight</h2>
+          <p>Learn what's hurting the ocean and how we can all help </p>
+        </div>
+
+        <div class="row justify-content-center ">
+          
+          <h3 style="text-align:center;"> Microplastics & PPE </h3>
+           <p style="text-align:left;"> If you’ve ventured out to a grocery store of late, you’ve likely seen a form of pollution that has 
+             become increasingly prevalent during the coronavirus pandemic— gloves, wipes, and masks littered in 
+             parking lots and throughout our communities.  Preliminary data from surveys shows that gloves are 
+             the most commonly littered Personal Protection Equipment (PPE) being found in the United States.  </p>
+         
+          <p style="text-align:left;">Not only is this a potential health threat to those that may clean up the discarded PPE, it is creating 
+            an additional plastic pollution problem.  Gloves, masks, and wipes are all typically made with plastic. 
+            Just like plastic bags, food packaging, and straws; plastic PPE that are improperly disposed of threaten 
+            our waterways and wildlife.  Plastic does not biodegrade; instead, it breaks down into tiny pieces over 
+            time and eventually becomes microplastic pollution in our waters.  Once microplastics enter our waterways, 
+            they act as toxic sponges, accumulating toxic chemicals present in the water, including pesticides and PCBs. 
+            Microplastics have been shown to accumulate toxins a million times higher than the surrounding waters. Studies 
+            show that when fish and aquatic life consume these microplastics, the chemicals are passed up the food chain to 
+            larger fish and wildlife, and ultimately, can end up on our dinner plates.  </p>
+          
+           <br>
+           <img src="assets/img/mask.jpg" style="float:left" alt="fisherman with masks" width="550" height="300">
+           <img src="assets/img/maskfloating.jpg" style="float:right" alt="masks floating" width="550" height="300">
+        
+             <p style="text-align:left;">According to a WWF report, "if just 1% of the masks were disposed of incorrectly and dispersed in nature, this 
+             would result in as many as 10 million masks per month polluting the environment."
+            "Considering that the weight of each mask is about 4 grams, this would result in the dispersion of more than 
+            40 thousand kilograms of plastic in nature," the report stipulated.</p>
+           
+            
+            <h4 style="text-align:left"> What can be done about it?</h4>
+            <p style="text-align:left"> The crux of the issue is two-fold: the public is improperly disposing of their masks, and masks are made in such a way that 
+              they are intended to be single use and from materials that are difficult to recycle. In order to address the PPE plastic crisis, 
+              new approaches towards mask making are essential.</p>
+            <p style="text-align:left;"> 
+              Take for example face masks imported from China. Experts say they are made of multiple layers of different materials or polymers. This complexity makes it much harder to recycle such items.
+              "Countries should try to develop products made of the same polymer, that we can trace and collect in sealed disposable bins, where they can be disinfected and recycled," said Claudia Brunori, a chemist from the Italian government agency for new technologies, energy and sustainable economic development (ENEA).
+              This is happening on a small scale at the local level where NGOs, institutions and researchers have created reusable PPE, where the mask structure is retained and only the filter is thrown away.
+              Mike Bilodeau, PlasticOceans regional director for Europe, says instead of importing PPE, it should be made locally and done in such a way that the plastic elements can be recycled and reused.
+            </p>
+            
+            <p style="text-align:left;">In conclusion, although it is essential for the public to have and use PPE, this is a great opportunity to enhance our PPE making 
+              techniques, so that the Coronavirus crisis does not further contribute to the plastic pollution one.
+            </p>
+            <br>
+            <p>Citations:</p>
+            <p style="text-align:left">https://www.citizenscampaign.org/cceblog/2020/4/24/stay-safe-and-end-ppe-pollution?fbclid=IwAR303ejxA6oq_chqV8ISsrVaujeTz1ddK8_ekrBcWput-Hv-LVOG_3v1Dm0</p>
+            <p style="text-align:left">https://www.worldwildlife.org/threats/deforestation-and-forest-degradation</p>
+            <p style="text-align:left"> https://moderndiplomacy.eu/2018/09/08/flood-drought-and-satellites-online-tools-boost-climate-cooperation/</p>
+            <p style="text-align:left">https://www.euronews.com/2020/05/12/will-plastic-pollution-get-worse-after-the-covid-19-pandemic</p>
+           </div>
+          </div>
+        </div>
+    </section><!-- End Concern Spotlight Section -->
+
+      <!-- ======= Cta Section ======= -->
+ <section id="cta2" class="cta">
+  <div class="container" data-aos="zoom-in">
+    <div class="text-center">
+      <h3>How can I help?</h3>
+      <p>See what cleanups are happening near you, and meet some new friends along the way!</p>
+      <a class="cta-btn" href="https://4ocean.com/get-involved/"> See volunteer events</a>
+    </div>
+  </div>
+</section>
+<!-- End Cta Section -->
+
+    <!-- ======= Get Involved Section ======= -->
+    <section id="getinvolved" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Get Involved</h2>
+          <p>Learn what's hurting the ocean and how we can all help </p>
+        </div>
+
+        <h2>Change can be effected at many different levels! </h2>
+
+        
+        <p>Choose whatever path you're comfortable with and see how you can help </p>
+        <button type="button" class="collapsible">On an institutional/governmental level </button>
+        <div class="getinvolvedcontent">
+
+          <p style="padding:20px"> Call your congressman, write your state rep, vote in local and state elections and make your voice heard! 
+            Whether its encouraging elected officials to make environment conscious, science based policy decisions or 
+            spreading the word by joining advocacy groups and campaigns, every little bit helps. It's always a great 
+            idea to familiarize yourself with the issue and possible ways to address it- remember, the ocean can't 
+            advocate for itself. It counts on eco-conscious ocean enthusiasts like yourself to help! Check out the 
+            inforgraphic below for some valuable info on what can be done on an institutional/governmental level to help. </p>
+            <img class="wp-image-11145 size-full" title="Preventing is better than Cleaning up [Infographic] | ecogreenlove" src="https://ecogreenlove.files.wordpress.com/2019/06/06072019_preventingplastics.png" alt="Preventing is better than Cleaning up [Infographic] | ecogreenlove" width="500" height="883" /> Visual by <a href="http://www.grida.no/resources/6905" target="_blank" rel="noopener">Maphoto/Riccardo Pravettoni</a>
+
+        </div>
+        <button type="button" class="collapsible">On an individual, every day level </button>
+        <div class="getinvolvedcontent">
+          <p style="padding:20px">Tackling the ocean plastic crisis is a big task, but don't feel like you have to do it alone! 
+            If we all work together, we can help save marine life, one pound at a time! Even small changes 
+            like using reusable grocery bags and swapping your facewash for one without microbeads can make 
+            a world of difference. Check out these tips below to see what small things you can do everyday 
+            that make a BIG difference!</p>
+    
+         <img src="assets/img/help-ocean.jpg" style="float:center" alt="fisherman with masks" width="1100" height="500">
+          <p>Credit: oceanservice.noaa.gov</p>
+        </div>
+        
+     
+          </div>
+    </section>
+    <!-- End Get Involved Section -->
+   
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>4ocean</h3>
+            <p>
+              Boca Raton, FL <br>
+              United States <br><br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+          </div>
+          </div>
+          </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 

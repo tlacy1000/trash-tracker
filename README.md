@@ -22,11 +22,12 @@
 ## Technologies
 * [Node](https://nodejs.org) 
 * [Bootstrap](https://www.bootstrap.com/)  
+* [HTML]
+* [CSS]
 * [Javascript](https://www.javascript.com/)
 
 ​
 ## Demo
-
 
 #Demo Clone this repository the open the index file on your local machine
 ​
