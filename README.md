@@ -1,5 +1,5 @@
 # trash-tracker-progress
-​ Trash tracker is a web based app built as an internship assignment during my tenure at 4Ocean.  The basis of 4Ocean is that each product sale results in 4Ocean pulling a pound (or more, depending on product purchased) of pollution from the ocean. This app allows consumers to view the intricacies of the pound for purchase model, in detail. It provides a step by step guide with insight into the product development cycle, ocean facts and tips for reducing plastic consumption.
+​Trash tracker is a web based app built as an internship assignment during my tenure at 4Ocean.  The basis of 4Ocean is that each product sale results in 4Ocean pulling a pound (or more, depending on product purchased) of pollution from the ocean. This app allows consumers to view the intricacies of the pound for purchase model, in detail. It provides a step by step guide with insight into the product development cycle, ocean facts and tips for reducing plastic consumption.
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
